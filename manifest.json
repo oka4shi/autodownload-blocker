@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "autodownload-blocker",
+  "version": "1.2",
+  "description": "manaba上のpdfファイルが自動でダウンロードされるのを修正します。",
+
+  "icons": {
+  "48": "icons/border-48.png",
+  "96": "icons/border-96.png"
+  },
+
+
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://manaba.tsukuba.ac.jp/*"
+  ],
+
+  "background": {
+    "scripts": ["script.js"]
+  }
+}
+
